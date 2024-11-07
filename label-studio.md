@@ -27,7 +27,7 @@ Go back to the label-studio page and create a new project with the name you want
 Then go to the Model section and set "Yolo" as name with URL=http://localhost:9090   
 If the latter does not work, try : http://localhost:8080  
 
-Finally, still in the settings, go to the Labeling Interface and find the Code tab.  
+Finally, still in the project settings, go to the Labeling Interface and find the Code tab.  
 There, copy-paste the following :  
 ```plaintext
 <View>  
