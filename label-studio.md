@@ -41,8 +41,8 @@ There, copy-paste the following :
 
 There you can change the classes depending on what your model predicts.  
 predicted_values should designate the exact name being used in the training of your model.  
-Label value allows to rename it for label-studio.
-To control the automated labeling, you can restrict the confidence by using model_score_threshold.  
+Label value allows to rename it for label-studio.  
+To keep control of automated labeling, you can limit the confidence level by using model_score_threshold.  
 
 # References  
 
