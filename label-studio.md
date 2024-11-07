@@ -5,6 +5,7 @@ Then, open a terminal window and do the following :
 
 pip install label-studio  
 label-studio start  
+(I used a conda environment but it is not necessary)  
 
 A window opens with label-studio interface. Go to the account settings and find the API key. Keep it. 
 
