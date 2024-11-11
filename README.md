@@ -44,6 +44,17 @@ predicted_values should designate the exact name being used in the training of y
 Label value allows to rename it for label-studio.  
 To keep control of automated labeling, you can limit the confidence level by using model_score_threshold.  
 
+## How to refresh the back-end configuration?  
+
+This is in case you bring any modification to the back-end after having ran : docker-compose up --build   
+By modification is meant changing something in docker-compose.yml or uploading a new model (.pt file).  
+You need to run
+```plaintext
+docker-compose down
+docker-compose up --build
+```  
+
+
 ## How to tune the confidence threshold?  
 
 Go in the settings of the model.  
