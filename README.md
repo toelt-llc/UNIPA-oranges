@@ -72,7 +72,8 @@ In the RectangleLabels section, tune the model_score_threshold feature, between 
 
 When (auto)-labelling images, you can proceed faster by using <a href="https://labelstud.io/guide/labeling.html"> keyboard shortcuts</a>.  
 
-Some principal commands :  
+##### Some principal commands :  
+
 H : pan the image  
 R : selects the tool to create frames  
 CTRL+R : duplicate the selected frame  
