@@ -25,7 +25,7 @@ Your YOLO model should be a .pt file (your_model.pt e.g.)
 In the same yolo directory as before, you should find a models folder. Put the your_model.pt file there.  
 In the previous docker-compose.yaml file, ensure that ALLOW_CUSTOM_MODEL_PATH=true and MODEL_ROOT=/app/models  
 
-Now, in the terminal window, go the the same yolo folder and run :    
+Now, in the terminal window, go to the same yolo folder and run :    
 ```plaintext
 docker compose up --build
 ```
@@ -69,7 +69,7 @@ Go to the Labeling Interface and then click on Code.
 In the RectangleLabels section, tune the model_score_threshold feature, between 0.0 and 1.0.  
 
 ## Keyboard shortcuts  
-When (auto)-labelling images, you can go faster by using <a href="https://labelstud.io/guide/labeling.html"> keyboard shortcuts </a>.
+When (auto)-labelling images, you can proceed faster by using <a href="https://labelstud.io/guide/labeling.html"> keyboard shortcuts </a>.
 
 # References  
 
