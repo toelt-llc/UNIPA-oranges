@@ -1,6 +1,6 @@
 # How to install label-studio?
 
-First, install Docker.  
+First, install <a href="https://docs.docker.com/compose/install/"> Docker</a>.  
 Then, open a terminal window and do the following :  
 ```plaintext
 pip install label-studio  
@@ -69,7 +69,7 @@ Go to the Labeling Interface and then click on Code.
 In the RectangleLabels section, tune the model_score_threshold feature, between 0.0 and 1.0.  
 
 ## Keyboard shortcuts  
-When (auto)-labelling images, you can proceed faster by using <a href="https://labelstud.io/guide/labeling.html"> keyboard shortcuts </a>.
+When (auto)-labelling images, you can proceed faster by using <a href="https://labelstud.io/guide/labeling.html"> keyboard shortcuts</a>.
 
 # References  
 
