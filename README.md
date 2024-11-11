@@ -69,7 +69,15 @@ Go to the Labeling Interface and then click on Code.
 In the RectangleLabels section, tune the model_score_threshold feature, between 0.0 and 1.0.  
 
 ## Keyboard shortcuts  
-When (auto)-labelling images, you can proceed faster by using <a href="https://labelstud.io/guide/labeling.html"> keyboard shortcuts</a>.
+
+When (auto)-labelling images, you can proceed faster by using <a href="https://labelstud.io/guide/labeling.html"> keyboard shortcuts</a>.  
+
+Some principal commands :  
+H : pan the image  
+R : selects the tool to create frames  
+CTRL+R : duplicate the selected frame  
+DELTE : delete the selected frame  
+Sometimes a red frame appears (usually when a frame is selected and then H is pressed), click on R to remove it.  
 
 # References  
 
