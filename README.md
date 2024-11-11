@@ -64,7 +64,7 @@ docker-compose up --build
 
 ## How to tune the confidence threshold?  
 
-Go in the settings of the model.  
+Go to the settings of the model.  
 Go to the Labeling Interface and then click on Code.  
 In the RectangleLabels section, tune the model_score_threshold feature, between 0.0 and 1.0.  
 
