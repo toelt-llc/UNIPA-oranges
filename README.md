@@ -76,7 +76,7 @@ Some principal commands :
 H : pan the image  
 R : selects the tool to create frames  
 CTRL+R : duplicate the selected frame  
-DELTE : delete the selected frame  
+DELETE : delete the selected frame  
 Sometimes a red frame appears (usually when a frame is selected and then H is pressed), click on R to remove it.  
 
 # References  
