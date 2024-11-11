@@ -2,14 +2,18 @@
 
 First, install Docker.  
 Then, open a terminal window and do the following :  
-
+```plaintext
 pip install label-studio  
-label-studio start  
+label-studio start
+```
 (I used a conda environment but it is not necessary)  
 
 A window opens with label-studio interface. Go to the account settings and find the API key. Keep it. 
 
-Then clone the label-studio rep : git clone https://github.com/HumanSignal/label-studio-ml-backend.git  
+Then clone the label-studio rep :
+```plaintext
+git clone https://github.com/HumanSignal/label-studio-ml-backend.git  
+```
 
 Once it has been cloned, open the file located at label_studio_ml>examples>yolo>docker-compose.yaml  
 Set the LABEL_STUDIO_API_KEY with the API key from your account settings (without the " around the key)  
@@ -21,7 +25,10 @@ Your YOLO model should be a .pt file (your_model.pt e.g.)
 In the same yolo directory as before, you should find a models folder. Put the your_model.pt file there.  
 In the previous docker-compose.yaml file, ensure that ALLOW_CUSTOM_MODEL_PATH=true and MODEL_ROOT=/app/models  
 
-Now, in the terminal window, go the the same yolo folder and run : docker compose up --build  
+Now, in the terminal window, go the the same yolo folder and run :    
+```plaintext
+docker compose up --build
+```
 
 Go back to the label-studio page and create a new project with the name you want.  
 Then go to the Model section and set "Yolo" as name with URL=http://localhost:9090   
