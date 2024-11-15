@@ -96,7 +96,8 @@ Then it will switch to an "Update" button.
 ### Warning (remove doubled annotations)
 During the labelling, if you are in Auto-detect mode (purple frame, shortcut M) this can happen :  
 if you draw a new rectangle with this tool, it will re-detect all instances thus creating two bounding boxes per orange.  
-If it happens, press 
+If it happens, press CTRL+Z until you see back this small rectangle. Then press it again to make it disappear.  
+#### This happens really often, be careful! It is not easy to see these doubled frames!
 
 # References  
 
