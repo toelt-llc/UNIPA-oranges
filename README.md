@@ -68,6 +68,14 @@ Go to the settings of the model.
 Go to the Labeling Interface and then click on Code.  
 In the RectangleLabels section, tune the model_score_threshold feature, between 0.0 and 1.0.  
 
+If you already have labels on some images, to activate the new detection threshold you need to delete existing annotations.  
+
+### How to delete existing annotations?  
+Go to the main menu where all images are listed.  
+Select the image where you want to delete annotations.  
+Click the button on the top-left (when no image is selected, "Actions" is written on this button).  
+Click "Delete predictions" or "Delete anotations".  
+
 ## Keyboard shortcuts  
 
 When (auto)-labelling images, you can proceed faster by using <a href="https://labelstud.io/guide/labeling.html"> keyboard shortcuts</a>.  
@@ -75,9 +83,20 @@ When (auto)-labelling images, you can proceed faster by using <a href="https://l
 #### Some principal commands :  
 H : pan the image  
 R : selects the tool to create frames  
+CTRL+Z : cancel the last action  
 CTRL+R : duplicate the selected frame  
 DELETE : delete the selected frame  
 Sometimes a red frame appears (usually when a frame is selected and then H is pressed), click on R to remove it.  
+
+### Regularly save the annotations  
+For each image, the first time you press "Submit".  
+Then it will switch to an "Update" button.  
+**Shortcut** : CTRL+ENTER  
+
+### Warning (remove doubled annotations)
+During the labelling, if you are in Auto-detect mode (purple frame, shortcut M) this can happen :  
+if you draw a new rectangle with this tool, it will re-detect all instances thus creating two bounding boxes per orange.  
+If it happens, press 
 
 # References  
 
