@@ -1,3 +1,7 @@
+# Informations about data
+
+Consult data.md.  
+
 # How to download unannotated images from Roboflow on your computer?
 
 Consult roboflow_api.ipynb notebook.  
