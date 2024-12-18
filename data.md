@@ -5,7 +5,7 @@ OneDrive - new images : 277 (48 evening_sunny, 5 evening_cloudy, 106 afternoon_s
 Roboflow - unannotated : 340 morning_sunny 
 
 ### Annotated (total : 245)
-First large dataset : 63  
+First large dataset : 63 (16 in the night, 3 in the inside, 10 m-sunny, 1 m-cloudy, 26 a-sunny, 4 a-sunny, 4 a-cloudy, 3 a-rainy)  
 LabelStudio-retrain 1 : 11 (three afternoon types : 2 rainy, 4 sunny, 5 cloudy)  
 LS-retrain 2 : 38 afternoon_cloudy  
 LS-retrain 3 : 24 afternoon_sunny  
