@@ -1,8 +1,8 @@
-## Number of instances (862, of which 625 to be annotated)
+## Number of instances (865)
 
-### Unannotated (total : 617)
+### Unannotated (total : 620)
 OneDrive - new images : 277 (48 evening_sunny, 5 evening_cloudy, 106 afternoon_sunny, 118 afternoon_cloudy)  
-Roboflow - unannotated : 340 morning_sunny 
+Roboflow - unannotated : 343 morning_sunny 
 
 ### Annotated (total : 245)
 First large dataset : 63 (16 in the night, 3 in the inside, 10 m-sunny, 1 m-cloudy, 26 a-sunny, 4 a-cloudy, 3 a-rainy)  
