@@ -16,6 +16,16 @@ label-studio start
 ```
 (I used a conda environment but it is not necessary)  
 
+A Log-in interface opens. Create an account if necessary.  
+
+#### Did you forget your password?
+
+In this case, stop the running interface by pressing ctrl+C. Before re-starting a new window, type the following :  
+ ```plaintext
+label-studio reset_password
+```
+Then you can log in as usual.
+
 A window opens with label-studio interface. Go to the account settings and find the API key. Keep it. 
 
 Then clone the label-studio rep :
