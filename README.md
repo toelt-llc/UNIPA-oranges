@@ -1,5 +1,5 @@
 # Getting Started  
-1. Create a lace the given dataset in the `FINAL_SUBIMAGES` folder.  
+1. Create a `FINAL_SUBIMAGES` folder to store the provided dataset.  
 2. Create the conda environment:  
    ```bash
    conda env create -f environment.yml  
