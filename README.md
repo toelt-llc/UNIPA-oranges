@@ -1,5 +1,5 @@
 # Getting Started  
-1. Place the given dataset in the `FINAL_SUBIMAGES` folder.  
+1. Create a lace the given dataset in the `FINAL_SUBIMAGES` folder.  
 2. Create the conda environment:  
    ```bash
    conda env create -f environment.yml  
@@ -17,6 +17,12 @@ This file allows you to reproduce the conda environment.
 
 ## `detection.ipynb`  
 Contains code to train a YOLO or RT-DETR model on YOLO data or `FINAL_SUBIMAGES`.  
+
+## `roboflow_api.ipynb`
+How to download unannotated images from Roboflow on your computer.
+
+## `labelstudio.md`
+How to use Label-studio from A to Z in order to facilitate the annotation of a new dataset.  
 
 ## `data_pipeline.ipynb`  
 Use this notebook with new data to generate sub-images in YOLO format using `CUT-IMG`.  
