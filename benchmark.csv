@@ -1,0 +1,25 @@
+model,dropout,epochs,TP,FP,FN,folder,patience,early_stopped,actual_epochs,training_hours,FPS
+yolov5xu,0.0,50,5389,946,1076,train19,100,False,50,0.570,
+yolov5xu,0.2,150,5376,790,1089,train20,20,False,150,1.768,
+yolov8x,0.0,150,5345,730,1120,train21,20,False,150,,
+yolov8x,0.2,150,5345,730,1120,train22,20,False,150,1.766,
+yolov10x,0.0,150,5286,684,1179,train23,20,False,150,1.764,
+yolov10x,0.2,150,5286,684,1179,train24,20,False,150,1.761,
+yolo11x,0.0,300,5404,602,1061,train18,100,False,300,3.195,
+yolo11x,0.2,300,5404,602,1061,train25,20,False,300,3.557,11.12
+yolo11n,0.2,300,5365,1230,1100,train26,20,True,152,0.553,11.03
+yolov5xu,0.2,300,5414,621,1051,train27,20,False,300,3.934,10.6
+yolov9e,0.2,300,5403,619,1062,train28,20,False,300,6.777(4.518),
+yolov3-sppu,0.2,300,5297,559,1168,train29,20,False,300,5.097(3.398),
+yolov9m,0.2,300,5456,739,1009,train30,20,False,300,2.028,
+yolov5mu,0.2,300,5434,793,1031,train31,20,True,288, 2.932 (0.977),10.13
+yolov8x,0.2,300,5366,537,1099,train32,20,False,300,3.481,11.09
+yolov10x,0.2,300,5338,578,1127,train33,20,False,300,3.420,11.17
+yolov8x_lrcos,0.4,300,5378,560,1087,train35,20,True,287,3.300,10.68
+yolo11x_lrcos,0.4,300,5451,672,1014,train34,20,False,300,3.543,10.81
+rtdetr-x,0.5,300,5780,1828,685,detrx_300_dropout05,20,True,175,2.765,9.03
+rtdetr-x,0.2,10,5797,2322,668,train_rtdetr,20,False,10,0.556 (0.185),
+rtdetr-x,0.2,100,5660,2157,805,train_rtdetr_100,20,True,48,1.582 (0.527),
+rtdetr-x,0.4,200,5765,1517,700,detrx_200_dropout04,20,True,186,2.964 ,
+rtdetr-l,0.2,10,5728,2572,737,train_rtdetr,20,False,10,0.257 (0.086),
+rtdetr-l,0.2,100,5664,2926,801,train_rtdetrl_102,20,True,38,0.928 (0.309),7.39
