@@ -1,11 +1,3 @@
-# Informations about data
-
-Consult data.md.  
-
-# How to download unannotated images from Roboflow on your computer?
-
-Consult roboflow_api.ipynb notebook.  
-
 # How to install label-studio?
 
 First, install <a href="https://docs.docker.com/compose/install/"> Docker</a>.  
