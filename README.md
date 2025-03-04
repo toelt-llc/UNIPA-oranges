@@ -34,5 +34,5 @@ Use this notebook to process new sub-images before passing them to `CUT-IMG` in 
 If using the provided sub-images from `FINAL_SUBIMAGES`, they are already sorted.  
 
 ## `figures.ipynb`  
-This notebook reproduces the figures from the paper.  
+This notebook reproduces the figures from the paper. <span style="color:red">ADD ARXIV LINK</span>  
 Before running `figures.ipynb`, generate `clip_stats.csv` by running `clip_check.ipynb` (see the bottom of the notebook).
