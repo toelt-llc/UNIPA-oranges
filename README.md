@@ -19,7 +19,7 @@ This file allows you to reproduce the conda environment.
 Contains code to train a YOLO or RT-DETR model on YOLO data or `FINAL_SUBIMAGES`.  
 
 ## `roboflow_api.ipynb`
-How to download unannotated images from Roboflow on your computer.
+How to download unannotated images from Roboflow on your computer. This file is useful in case files (from several folders that have been subsequently deleted e.g.) have been uploaded but not annotated and it would be useful to recover them.  
 
 ## `labelstudio.md`
 How to use Label-studio from A to Z in order to facilitate the annotation of a new dataset.  
