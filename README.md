@@ -146,5 +146,13 @@ Download unannotated images from Roboflow. Useful for recovering files that were
 If you use this dataset in your research, please cite:
 
 ```
-ADD ARXIV SOON
+@misc{lucas2025oranges,
+  author = {Lucas, Baptiste and Carella, Alessandro and El Ghazouali, Safouane and Bulacio, Pedro and Massenti, Roberto and Venturini, Francesca and Michelucci, Umberto and Lo Bianco, Riccardo},
+  title = {Oranges in the field},
+  year = {2025},
+  publisher = {Mendeley Data},
+  version = {V1},
+  doi = {10.17632/93f32zgkxz.1},
+  url = {https://data.mendeley.com/datasets/93f32zgkxz/1}
+}
 ```
