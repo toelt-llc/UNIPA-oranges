@@ -6,6 +6,21 @@ A comprehensive dataset for orange detection in agricultural fields, featuring d
 
 Reliable, on-tree detection and maturity assessment of oranges in real orchards is still limited by the lack of diverse, well-annotated datasets. This project describes a new *orange on-field dataset*, a large-scale, image collection under high environmental variability designed for fruit detection, classification, and maturity assessment in real-world orchard environments. This dataset was created from scratch to train and evaluate object detection models for oranges in field conditions. It contains **5,025 annotated images** captured across various times of day and weather conditions, providing robust training data for agricultural computer vision applications. Images were collected using different smartphone cameras and preprocessed through a custom cropping algorithm to optimize annotation efficiency. The dataset was labeled using a semi-automated approach, combining YOLO-based pre-annotations refined manually in Roboflow. To improve annotation quality, a CLIP-based verification step filtered images with incorrect labels. The dataset is provided with YOLO and COCO annotations, making it suitable for multiple object detection frameworks. Additionally, a benchmark evaluation was conducted using state-of-the-art models, including YOLO (v5, v8, v10, v11) and RT-DETR, assessed via standard precision, recall, and F1-score metrics. Results indicate that recent YOLO models outperform RT-DETR in both accuracy and inference speed. The structured format and environmental diversity of the dataset make it valuable for AI applications in precision agriculture, such as  fruit maturity assessment, yield estimation and automated harvesting. 
 
+## Demo detection
+
+https://github.com/user-attachments/assets/775295bb-88e4-4629-92c6-6607e492929f
+
+## Folder Structure
+The dataset cann be downloaded from [Mendeley Data](https://data.mendeley.com/datasets/93f32zgkxz/1). 
+
+The folder structure is detailed in the below image.
+
+<img width="1997" height="750" alt="folder_structure" src="https://github.com/user-attachments/assets/932dc85f-97dd-4204-8bd9-a36bb43f07b5" />
+
+## Data creation pipeline
+This data is not augmented and was created following this pipeline
+
+<img width="1492" height="734" alt="framework" src="https://github.com/user-attachments/assets/87e0984d-d6ea-4bf7-a736-63e4694f2ee6" />
 
 
 ### Dataset Statistics
