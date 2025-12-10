@@ -11,7 +11,7 @@ Reliable, on-tree detection and maturity assessment of oranges in real orchards 
 https://github.com/user-attachments/assets/775295bb-88e4-4629-92c6-6607e492929f
 
 ## Folder Structure
-The dataset cann be downloaded from [Mendeley Data](https://data.mendeley.com/datasets/93f32zgkxz/1). 
+The dataset can be downloaded from [Mendeley Data](https://data.mendeley.com/datasets/93f32zgkxz/1). 
 
 The folder structure is detailed in the below image.
 
