@@ -146,13 +146,24 @@ Download unannotated images from Roboflow. Useful for recovering files that were
 If you use this dataset in your research, please cite:
 
 ```
-@misc{lucas2025oranges,
-  author = {Lucas, Baptiste and Carella, Alessandro and El Ghazouali, Safouane and Bulacio, Pedro and Massenti, Roberto and Venturini, Francesca and Michelucci, Umberto and Lo Bianco, Riccardo},
-  title = {Oranges in the field},
-  year = {2025},
-  publisher = {Mendeley Data},
-  version = {V1},
-  doi = {10.17632/93f32zgkxz.1},
-  url = {https://data.mendeley.com/datasets/93f32zgkxz/1}
+@article{carella2026orange,
+  title   = {Large-scale orange fruit dataset for localization,
+             classification and ripening assessment under varying
+             environments},
+  author  = {Carella, Alessandro and
+             Lucas, Baptiste Paul Ernest and
+             El Ghazouali, Safouane and
+             Bulacio Fischer, Pedro Tomas and
+             Massenti, Roberto and
+             Venturini, Francesca and
+             Michelucci, Umberto and
+             Lo Bianco, Riccardo},
+  journal = {Computers and Electronics in Agriculture},
+  volume  = {248},
+  pages   = {111833},
+  year    = {2026},
+  doi     = {10.1016/j.compag.2026.111833},
+  url     = {https://doi.org/10.1016/j.compag.2026.111833},
+  publisher = {Elsevier}
 }
 ```
